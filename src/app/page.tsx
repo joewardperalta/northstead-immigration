@@ -19,6 +19,8 @@ export default function Home() {
             autoPlay
             muted
             loop
+            playsInline
+            preload="auto"
           >
             <source
               src="/videos/19504779-hd_1920_1080_60fps.mp4"
