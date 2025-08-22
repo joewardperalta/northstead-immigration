@@ -8,7 +8,7 @@ import Wrapper from "@/components/Wrapper";
 export default function Home() {
   return (
     <main>
-      <section className="h-screen">
+      <section className="h-dvh">
         <Wrapper className="h-full flex items-end">
           {/* Background overlay */}
           <div className="absolute left-0 top-0 h-full w-full bg-gray-950/60 -z-10"></div>
