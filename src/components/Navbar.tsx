@@ -55,9 +55,7 @@ export default function Navbar() {
             ></div>
             <div
               className={`w-full h-[2px] bg-neutral-black rounded-full absolute left-1/2 -translate-x-1/2 translate-y-1/2  ${
-                isToggle
-                  ? "max-h-0"
-                  : "max-h-[2px] transition-all duration-300 bottom-1/2"
+                isToggle ? "max-h-0" : "max-h-[2px] bottom-1/2"
               }`}
             ></div>
             <div
