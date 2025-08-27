@@ -64,7 +64,7 @@ export default function Navbar() {
                   {navLinks.map((link, index) => (
                     <li
                       key={index}
-                      className="text-base font-medium text-neutral-950"
+                      className="text-base font-medium text-neutral-black hover:text-primary transition-all duration-300"
                     >
                       <Link href={link.url}>{link.name}</Link>
                     </li>
