@@ -15,7 +15,7 @@ export default function PrimaryCallToActionButton({
 }: PrimaryCallToActionButtonProps) {
   return (
     <Link
-      className={`w-fit text-secondary bg-primary px-6 py-3 rounded-lg flex items-center gap-3 ${className}`}
+      className={`w-fit text-secondary bg-primary px-6 py-3 rounded-lg flex items-center gap-3 font-medium ${className}`}
       href={navigateTo}
     >
       <span>{children}</span>
