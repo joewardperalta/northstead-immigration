@@ -46,9 +46,9 @@ export default function Navbar() {
             className="space-y-1 lg:hidden"
             onClick={() => setIsToggle(!isToggle)}
           >
-            <div className="w-7 h-1 bg-neutral-black rounded-full"></div>
-            <div className="w-7 h-1 bg-neutral-black rounded-full"></div>
-            <div className="w-7 h-1 bg-neutral-black rounded-full"></div>
+            <div className="w-6 h-[2px] bg-neutral-black rounded-full"></div>
+            <div className="w-6 h-[2px] bg-neutral-black rounded-full"></div>
+            <div className="w-6 h-[2px] bg-neutral-black rounded-full"></div>
           </button>
 
           {/* Main navigation */}
