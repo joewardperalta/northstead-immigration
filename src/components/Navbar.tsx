@@ -47,19 +47,19 @@ export default function Navbar() {
             onClick={() => setIsToggle(!isToggle)}
           >
             <div
-              className={`w-full h-[2px] bg-neutral-black rounded-full absolute left-1/2 -translate-x-1/2 transition-all duration-300 ${
+              className={`w-full h-[2px] bg-black rounded-full absolute left-1/2 -translate-x-1/2 transition-all duration-300 ${
                 isToggle
                   ? "rotate-45 bottom-1/2"
                   : "bottom-full translate-y-full"
               }`}
             ></div>
             <div
-              className={`w-full h-[2px] bg-neutral-black rounded-full absolute left-1/2 -translate-x-1/2 translate-y-1/2  ${
+              className={`w-full h-[2px] bg-black rounded-full absolute left-1/2 -translate-x-1/2 translate-y-1/2  ${
                 isToggle ? "max-h-0" : "max-h-[2px] bottom-1/2"
               }`}
             ></div>
             <div
-              className={`w-full h-[2px] bg-neutral-black rounded-full absolute left-1/2 -translate-x-1/2 transition-all duration-300 ${
+              className={`w-full h-[2px] bg-black rounded-full absolute left-1/2 -translate-x-1/2 transition-all duration-300 ${
                 isToggle ? "-rotate-45 bottom-1/2" : "bottom-0"
               }`}
             ></div>
@@ -78,7 +78,7 @@ export default function Navbar() {
                   {navLinks.map((link, index) => (
                     <li
                       key={index}
-                      className="text-base font-medium text-neutral-black hover:text-primary transition-all duration-300"
+                      className="text-base font-medium text-black hover:text-primary transition-all duration-300"
                     >
                       <Link href={link.url}>{link.name}</Link>
                     </li>

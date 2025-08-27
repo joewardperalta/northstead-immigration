@@ -1,6 +1,8 @@
 import * as React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import UpRightArrow from "../../../public/icons/UpRightArrow";
+import Calendar from "../../../public/icons/Calendar";
 
 type PrimaryCallToActionButtonProps = {
   className?: string;
@@ -19,13 +21,9 @@ export default function PrimaryCallToActionButton({
       href={navigateTo}
     >
       <span>{children}</span>
-      <Image
-        className="w-2.5"
-        src="/icons/up-right-arrow.svg"
-        alt=""
-        width={32}
-        height={32}
-      />
+      <div className="w-4 text-secondary">
+        <Calendar />
+      </div>
     </Link>
   );
 }

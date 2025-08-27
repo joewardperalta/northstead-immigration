@@ -5,7 +5,8 @@
   --color-primary-dark: #012b50;
   --color-secondary: #f9fafb;
   --color-neutral: #9ca3af;
-  --color-neutral-black: #0a0a0a;
+  --color-neutral-dark: #404040;
+  --color-black: #0a0a0a;
 }
 
 body {

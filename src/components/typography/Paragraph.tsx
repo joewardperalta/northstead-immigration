@@ -7,8 +7,6 @@ type ParagraphProps = {
 
 export default function Paragraph({ className, children }: ParagraphProps) {
   return (
-    <p className={`text-neutral text-base md:text-lg ${className ?? ""}`}>
-      {children}
-    </p>
+    <p className={`text-neutral text-base ${className ?? ""}`}>{children}</p>
   );
 }
