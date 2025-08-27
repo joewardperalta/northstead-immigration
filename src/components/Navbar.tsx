@@ -53,7 +53,7 @@ export default function Navbar() {
 
           {/* Main navigation */}
           <div
-            className={`w-full bg-secondary absolute left-0 top-full max-h-0 overflow-hidden transition-all duration-300 lg:relative ${
+            className={`w-full bg-secondary absolute left-0 top-full max-h-0 overflow-hidden transition-all duration-300 lg:relative lg:max-h-96 ${
               isToggle ? "max-h-96" : ""
             }`}
           >
