@@ -8,7 +8,7 @@ type SubTitleProps = {
 export default function SubTitle({ className, children }: SubTitleProps) {
   return (
     <p
-      className={`text-neutral text-base md:text-lg md:max-w-[536px] mb-8 md:mb-12 ${
+      className={`text-neutral mb-8 text-base leading-[1.5] sm:mx-auto sm:mb-9 sm:max-w-[34rem] sm:text-lg md:mx-0 md:mb-10 ${
         className ?? ""
       }`}
     >

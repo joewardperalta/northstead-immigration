@@ -8,7 +8,7 @@ type BadgeProps = {
 export default function Badge({ className, children }: BadgeProps) {
   return (
     <div
-      className={`border-neutral text-secondary mb-3 w-fit rounded-full border px-4 py-1 sm:mb-4 md:mb-5 ${
+      className={`border-neutral text-secondary mb-3 w-fit rounded-full border px-4 py-1 leading-[1.5] sm:mb-4 md:mb-5 ${
         className ?? ""
       }`}
     >
