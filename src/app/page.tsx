@@ -11,14 +11,14 @@ import Photo from "@/components/Photo";
 export default function Home() {
   return (
     <main>
-      <section className="relative pt-72">
-        <Wrapper className="h-full flex items-end">
+      <section className="relative pt-48 sm:pt-52 md:pt-56">
+        <Wrapper className="flex h-full items-end">
           {/* Background overlay */}
-          <div className="absolute left-0 top-0 h-full w-full bg-gray-950/60 -z-10"></div>
+          <div className="absolute top-0 left-0 -z-10 h-full w-full bg-gray-950/60"></div>
 
           {/* Background video */}
           <video
-            className="absolute left-0 top-0 h-full w-full object-cover -z-20"
+            className="absolute top-0 left-0 -z-20 h-full w-full object-cover"
             autoPlay
             muted
             loop
@@ -69,10 +69,10 @@ export default function Home() {
       <section>
         <Wrapper className="space-y-8">
           {/* Headline */}
-          <div className="lg:flex lg:gap-6 lg:justify-between lg:items-center">
+          <div className="lg:flex lg:items-center lg:justify-between lg:gap-6">
             <Heading>Trusted by hundreds of newcomers to Canada</Heading>
 
-            <div className="space-y-5 max-w-[30rem]">
+            <div className="max-w-[30rem] space-y-5">
               <Paragraph className="text-neutral-dark">
                 Northstead Immigration Inc. is committed to helping individuals,
                 families, and caregivers successfully navigate Canada’s
