@@ -40,9 +40,7 @@ export default function Home() {
 
             {/* Headline */}
             <div className="text-center md:text-left">
-              <Title className="md:max-w-[872px]">
-                Your trusted partner in Canadian immigration
-              </Title>
+              <Title>Your trusted partner in Canadian immigration</Title>
               <SubTitle>
                 Expert RCIC-led guidance for work permits, permanent residency,
                 study visas, and family sponsorships — with personalized support
@@ -69,7 +67,7 @@ export default function Home() {
       <section>
         <Wrapper className="space-y-8">
           {/* Headline */}
-          <div className="lg:flex lg:items-center lg:justify-between lg:gap-6">
+          <div className="lg:flex lg:items-center lg:justify-between lg:gap-16">
             <Heading>Trusted by hundreds of newcomers to Canada</Heading>
 
             <div className="max-w-[30rem] space-y-5">
