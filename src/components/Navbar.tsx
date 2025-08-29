@@ -34,23 +34,23 @@ export default function Navbar() {
 
   return (
     <div className="fixed top-0 left-0 w-full bg-white py-5">
-      <div>
-        <Wrapper className="flex flex-col items-center justify-between lg:flex-row lg:items-center">
-          <div className="mb-[3rem] flex w-full justify-between lg:mb-0 lg:w-fit">
-            <Logo className="w-[9rem] md:min-w-[9rem] lg:min-w-[10rem]" />
-            <HamburgerButton onToggleMenu={handleOnToggleMenu} />
-          </div>
+      <Wrapper className="flex flex-col items-center justify-between lg:flex-row lg:items-center">
+        <div className="flex w-full justify-between lg:w-fit">
+          <Logo className="w-[9rem] md:min-w-[9rem] lg:min-w-[10rem]" />
+          <HamburgerButton onToggleMenu={handleOnToggleMenu} />
+        </div>
 
-          <div
-            className={`w-full space-y-[2rem] space-x-7 overflow-hidden transition-all lg:flex lg:max-h-[50rem] lg:items-center lg:justify-end lg:space-y-0 ${isToggle ? "max-h-[50rem]" : "max-h-0"}`}
-          >
+        <div
+          className={`w-full overflow-hidden transition-all ${isToggle ? "max-h-[50rem]" : "max-h-0"}`}
+        >
+          <div className="space-y-[2rem] space-x-7 pt-[3rem] lg:flex lg:items-center lg:justify-end lg:space-y-0 lg:pt-0">
             <Nav items={navItems} />
             <PrimaryCallToActionButton navigateTo="/booking">
               Book a consultation
             </PrimaryCallToActionButton>
           </div>
-        </Wrapper>
-      </div>
+        </div>
+      </Wrapper>
     </div>
   );
 }
