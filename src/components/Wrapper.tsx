@@ -8,9 +8,7 @@ type WrapperProps = {
 export default function Wrapper({ className, children }: WrapperProps) {
   return (
     <div
-      className={`mx-auto w-full max-w-[1440px] px-6 py-12 sm:px-12 sm:py-16 md:px-[4.5rem] md:py-20 ${
-        className ?? ""
-      }`}
+      className={`mx-auto px-[1.2rem] sm:max-w-[700px] lg:max-w-[1200px] ${className ?? ""}`}
     >
       {children}
     </div>
