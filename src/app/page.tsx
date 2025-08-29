@@ -7,6 +7,7 @@ import SubTitle from "@/components/typography/SubTitle";
 import Title from "@/components/typography/Title";
 import Wrapper from "@/components/Wrapper";
 import Photo from "@/components/Photo";
+import SubHeading from "@/components/typography/SubHeading";
 
 export default function Home() {
   return (
@@ -67,15 +68,15 @@ export default function Home() {
       <section>
         <Wrapper className="space-y-8">
           {/* Headline */}
-          <div className="lg:flex lg:items-center lg:justify-between lg:gap-16">
+          <div className="lg:flex lg:justify-between lg:gap-16">
             <Heading>Trusted by hundreds of newcomers to Canada</Heading>
 
-            <div className="max-w-[30rem] space-y-5">
-              <Paragraph className="text-neutral-dark">
-                Northstead Immigration Inc. is committed to helping individuals,
-                families, and caregivers successfully navigate Canada’s
-                immigration system with confidence and clarity.
-              </Paragraph>
+            <div className="space-y-5">
+              <SubHeading>
+                We are committed to helping individuals, families, and
+                caregivers successfully navigate Canada&apos;s immigration
+                system with confidence and clarity.
+              </SubHeading>
               <SecondaryCallToActionButton navigateTo="/about">
                 More about us
               </SecondaryCallToActionButton>
