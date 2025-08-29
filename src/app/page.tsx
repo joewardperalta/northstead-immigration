@@ -34,7 +34,9 @@ export default function Home() {
 
           {/* Main content */}
           <div>
-            <Badge>Based in Toronto, Ontario, Canada</Badge>
+            <Badge className="mx-auto md:mx-0">
+              Based in Toronto, Ontario, Canada
+            </Badge>
 
             {/* Headline */}
             <div className="text-center md:text-left">
