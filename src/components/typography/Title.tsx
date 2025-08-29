@@ -7,12 +7,12 @@ type TitleProps = {
 
 export default function Title({ className, children }: TitleProps) {
   return (
-    <h1
-      className={`text-secondary mb-4 max-w-[54rem] text-4xl leading-tight font-medium sm:mb-5 sm:text-5xl md:mb-6 md:text-6xl ${
-        className ?? ""
-      }`}
-    >
-      {children}
-    </h1>
+    <div className="">
+      <h1
+        className={`mb-[1rem] text-[2.3rem] leading-[1.2] font-medium capitalize md:text-[3.2rem] ${className ?? ""}`}
+      >
+        {children}
+      </h1>
+    </div>
   );
 }

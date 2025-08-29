@@ -18,7 +18,7 @@ export default function Photo({
 }: PhotoProps) {
   return (
     <Image
-      className={`rounded-xl h-80 w-full object-cover object-left-top ${className}`}
+      className={`h-full w-full rounded-xl object-cover ${className}`}
       src={src}
       alt={alt}
       width={width}

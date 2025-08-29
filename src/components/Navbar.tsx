@@ -36,7 +36,7 @@ export default function Navbar() {
     <div className="fixed top-0 left-0 w-full bg-white py-5">
       <div>
         <Wrapper className="flex flex-col items-center justify-between lg:flex-row lg:items-center">
-          <div className="flex w-full justify-between lg:mb-0 lg:w-fit">
+          <div className="mb-[3rem] flex w-full justify-between lg:mb-0 lg:w-fit">
             <Logo className="w-[9rem] md:min-w-[9rem] lg:min-w-[10rem]" />
             <HamburgerButton onToggleMenu={handleOnToggleMenu} />
           </div>

@@ -15,7 +15,7 @@ export default function SecondaryCallToActionButton({
 }: SecondaryCallToActionButtonProps) {
   return (
     <Link
-      className={`w-fit border-b border-transparent flex items-center gap-2 transition-all duration-300 hover:[&>*]:last:translate-x-0.5  hover:[&>*]:last:-translate-y-0.5 [&>*]:last:transition-all [&>*]:last:duration-300  ${className}`}
+      className={`flex w-fit items-center gap-2 border-b border-transparent font-medium transition-all duration-300 [&>*]:last:transition-all [&>*]:last:duration-300 hover:[&>*]:last:translate-x-0.5 hover:[&>*]:last:-translate-y-0.5 ${className}`}
       href={navigateTo}
     >
       <span>{children}</span>
