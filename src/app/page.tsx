@@ -8,6 +8,7 @@ import Title from "@/components/typography/Title";
 import Wrapper from "@/components/Wrapper";
 import Photo from "@/components/Photo";
 import SubHeading from "@/components/typography/SubHeading";
+import Headline from "@/Headline";
 
 export default function Home() {
   return (
@@ -67,8 +68,7 @@ export default function Home() {
 
       <section>
         <Wrapper className="space-y-8">
-          {/* Headline */}
-          <div className="lg:flex lg:justify-between lg:gap-16">
+          <Headline className="lg:flex lg:justify-between lg:gap-16">
             <Heading>Trusted by hundreds of newcomers to Canada</Heading>
 
             <div className="space-y-5">
@@ -81,7 +81,7 @@ export default function Home() {
                 More about us
               </SecondaryCallToActionButton>
             </div>
-          </div>
+          </Headline>
 
           {/* Gallery */}
           <div className="grid grid-cols-12 gap-4 [&>*]:nth-[2]:hidden [&>*]:nth-[3]:hidden lg:[&>*]:nth-[2]:block lg:[&>*]:nth-[3]:block">
