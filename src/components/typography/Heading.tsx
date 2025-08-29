@@ -8,7 +8,7 @@ type HeadingProps = {
 export default function Heading({ className, children }: HeadingProps) {
   return (
     <h2
-      className={`mb-3 text-3xl leading-tight sm:mb-4 sm:max-w-[30rem] sm:text-4xl md:mb-5 md:max-w-[50rem] md:text-5xl ${className || ""}`}
+      className={`mb-[0.8rem] w-full text-[1.8rem] leading-[1.2] font-medium md:text-[2.7rem] ${className || ""}`}
     >
       {children}
     </h2>

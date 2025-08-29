@@ -7,7 +7,7 @@ type SectionProps = {
 
 export default function Section({ className, children }: SectionProps) {
   return (
-    <section className={`py-[6rem] md:py-[8rem] ${className}`}>
+    <section className={`py-[2rem] md:py-[4rem] lg:py-[6rem] ${className}`}>
       {children}
     </section>
   );

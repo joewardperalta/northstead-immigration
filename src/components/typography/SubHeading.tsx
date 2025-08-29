@@ -7,10 +7,10 @@ type SubHeadingProps = {
 
 export default function SubHeading({ className, children }: SubHeadingProps) {
   return (
-    <p
-      className={`text-neutral-dark mb-4 text-base leading-relaxed sm:mb-5 sm:text-lg md:mb-6 md:max-w-[50rem] md:text-xl ${className || ""}`}
-    >
-      {children}
-    </p>
+    <div className="mb-[1.2rem]">
+      <p className={`w-full text-[1rem] md:text-[1.12rem] ${className ?? ""}`}>
+        {children}
+      </p>
+    </div>
   );
 }

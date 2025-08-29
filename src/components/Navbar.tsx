@@ -41,7 +41,7 @@ export default function Navbar() {
         </div>
 
         <div
-          className={`w-full overflow-hidden transition-all ${isToggle ? "max-h-[50rem]" : "max-h-0"}`}
+          className={`w-full overflow-hidden transition-all lg:max-h-[50rem] ${isToggle ? "max-h-[50rem]" : "max-h-0"}`}
         >
           <div className="space-y-[2rem] space-x-7 pt-[3rem] lg:flex lg:items-center lg:justify-end lg:space-y-0 lg:pt-0">
             <Nav items={navItems} />
