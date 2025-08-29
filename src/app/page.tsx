@@ -13,7 +13,7 @@ import Section from "@/components/Section";
 export default function Home() {
   return (
     <main>
-      <Section className="pt-[8rem]">
+      <Section className="pt-[8rem] md:pt-[8rem]">
         <Wrapper className="lg:flex lg:items-center lg:gap-[5rem]">
           <MainHeadline className="mb-[2rem] w-full text-center md:mb-[3rem] md:text-start lg:mb-0">
             <Title>Expert immigration consultant</Title>
