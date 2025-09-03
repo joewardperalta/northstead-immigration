@@ -9,7 +9,6 @@ import SubHeading from "@/components/typography/SubHeading";
 import Headline from "@/components/Headline";
 import MainHeadline from "@/components/MainHeadline";
 import Section from "@/components/Section";
-import Image from "next/image";
 
 // data
 import benefits from "@/data/benefits.json";
