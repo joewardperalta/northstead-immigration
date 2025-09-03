@@ -7,6 +7,8 @@ type HeadlineProps = {
 
 export default function Headline({ children, className }: HeadlineProps) {
   return (
-    <div className={`mb-8 sm:mb-10 md:mb-12 ${className}`}>{children}</div>
+    <div className={`mb-[2rem] sm:mb-[3rem] md:mb-[4rem] ${className}`}>
+      {children}
+    </div>
   );
 }

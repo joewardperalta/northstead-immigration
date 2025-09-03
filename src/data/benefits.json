@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "/icons/shield.png",
+    "title": "Licensed & Trusted Experts",
+    "description": "We are certified immigration consultants with a proven track record of successful applications."
+  },
+  {
+    "icon": "/icons/user.png",
+    "title": "Personalized Guidance",
+    "description": "Every client is unique, we tailor solutions to fit your specific goals and circumstances."
+  },
+  {
+    "icon": "/icons/headphone.png",
+    "title": "End-to-end Support",
+    "description": "From eligibility checks to application submissions and follow-ups, we guide you every step of the way."
+  },
+  {
+    "icon": "/icons/trend.png",
+    "title": "High Success Rate",
+    "description": "Our commitment to accuracy and professionalism means fewer delays and stronger chances of approval."
+  },
+  {
+    "icon": "/icons/open-book.png",
+    "title": "Up-to-date Immigration Knowledge",
+    "description": "We stay current with the latest immigration policies to keep your application accurate."
+  },
+  {
+    "icon": "/icons/hands.png",
+    "title": "Compassionate Client Care",
+    "description": "We provide clear communication and support so you feel confident throughout the process."
+  }
+]

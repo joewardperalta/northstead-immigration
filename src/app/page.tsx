@@ -6,9 +6,14 @@ import Title from "@/components/typography/Title";
 import Wrapper from "@/components/Wrapper";
 import Photo from "@/components/Photo";
 import SubHeading from "@/components/typography/SubHeading";
-import Headline from "@/Headline";
+import Headline from "@/components/Headline";
 import MainHeadline from "@/components/MainHeadline";
 import Section from "@/components/Section";
+import Image from "next/image";
+
+// data
+import benefits from "@/data/benefits.json";
+import BenefitCard from "@/components/BenefitCard";
 
 export default function Home() {
   return (
@@ -92,6 +97,29 @@ export default function Home() {
                 height={600}
               />
             </div>
+          </div>
+        </Wrapper>
+      </Section>
+
+      <Section>
+        <Wrapper>
+          <Headline className="mx-auto max-w-[30rem] text-center">
+            <Heading>Why choose us</Heading>
+            <SubHeading>
+              Choosing the right immigration partner can make all the
+              difference. Here&apos;s why clients trusts us:
+            </SubHeading>
+          </Headline>
+
+          <div className="grid grid-cols-1 gap-x-[4rem] gap-y-[2rem] sm:grid-cols-2 lg:grid-cols-3">
+            {benefits.map((benefit, index) => (
+              <BenefitCard
+                key={index}
+                icon={benefit.icon}
+                title={benefit.title}
+                description={benefit.description}
+              />
+            ))}
           </div>
         </Wrapper>
       </Section>
