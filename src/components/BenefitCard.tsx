@@ -13,8 +13,8 @@ export default function BenefitCard({
   description,
 }: BenefitCardProps) {
   return (
-    <div>
-      <div className="bg-primary mb-[1rem] w-[3.2rem] rounded-full p-[0.8rem]">
+    <div className="text-center sm:text-left">
+      <div className="bg-primary mx-auto mb-[1rem] w-[3.2rem] rounded-full p-[0.8rem] sm:mx-0">
         <Image
           className="h-full w-full"
           src={icon}
