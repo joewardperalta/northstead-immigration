@@ -15,7 +15,6 @@ import ServiceCard from "@/components/ServiceCard";
 // data
 import benefits from "@/data/benefits.json";
 import services from "@/data/services.json";
-import { link } from "fs";
 
 export default function Home() {
   return (
@@ -41,7 +40,7 @@ export default function Home() {
             </div>
           </MainHeadline>
 
-          <div className="w-full lg:h-[35rem]">
+          <div className="w-full overflow-hidden rounded-xl lg:h-[35rem]">
             <Photo
               className="object-top"
               src="/immigration-consultant-potrait.jpg"
@@ -75,7 +74,7 @@ export default function Home() {
 
           {/* Gallery */}
           <div className="md:flex md:gap-[1rem]">
-            <div className="w-full">
+            <div className="w-full overflow-hidden rounded-xl">
               <Photo
                 src="/airport.png"
                 alt="Joy Villanueva consultant wearing a formal attire."
@@ -83,7 +82,7 @@ export default function Home() {
                 height={600}
               />
             </div>
-            <div className="hidden w-full md:block">
+            <div className="hidden w-full overflow-hidden rounded-xl md:block">
               <Photo
                 src="/canadaflag.png"
                 alt="Joy Villanueva consultant wearing a formal attire."
@@ -91,7 +90,7 @@ export default function Home() {
                 height={600}
               />
             </div>
-            <div className="hidden w-full lg:block">
+            <div className="hidden w-full overflow-hidden rounded-xl lg:block">
               <Photo
                 src="/consultation.png"
                 alt="Joy Villanueva consultant wearing a formal attire."
