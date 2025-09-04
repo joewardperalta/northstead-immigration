@@ -44,7 +44,7 @@ export default function Home() {
             </div>
           </MainHeadline>
 
-          <div className="w-full overflow-hidden rounded-xl lg:h-[35rem]">
+          <div className="w-full overflow-hidden rounded-xl sm:h-[30rem] lg:h-[35rem]">
             <Photo
               className="object-top"
               src="/immigration-consultant-potrait.jpg"
@@ -218,6 +218,35 @@ export default function Home() {
               </li>
             ))}
           </ul>
+        </Wrapper>
+      </Section>
+
+      <Section>
+        <Wrapper className="text-center sm:text-left lg:flex lg:items-center lg:gap-[5rem]">
+          <Headline className="mb-0 w-full lg:mb-0">
+            <Heading>
+              Start your Canadian immigration journey with expert guidance
+            </Heading>
+            <SubHeading className="mb-[1.5rem] sm:mb-[2rem]">
+              Book a consultation and let&apos;s create a clear plan for your
+              work, study, or PR pathway.
+            </SubHeading>
+            <PrimaryCallToActionButton
+              className="mx-auto sm:mx-0"
+              navigateTo="/booking"
+            >
+              Book a consultation
+            </PrimaryCallToActionButton>
+          </Headline>
+
+          <div className="w-full overflow-hidden rounded-xl sm:h-[30rem] lg:h-[35rem]">
+            <Photo
+              src="/consultation.jpg"
+              alt="Immigration consultant looking at the camera with a big smile."
+              width={600}
+              height={600}
+            />
+          </div>
         </Wrapper>
       </Section>
     </main>
