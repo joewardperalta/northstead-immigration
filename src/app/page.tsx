@@ -157,10 +157,12 @@ export default function Home() {
         <Wrapper className="lg:flex lg:items-center lg:gap-[5rem]">
           <div className="w-full">
             <Headline className="text-center lg:text-left">
-              <Heading>Our step-by-step process</Heading>
+              <Heading className="mx-auto lg:mx-0">
+                Our step-by-step process
+              </Heading>
             </Headline>
 
-            <div className="mb-[2rem] w-full overflow-hidden rounded-xl lg:hidden">
+            <div className="w-full overflow-hidden rounded-xl sm:mb-[2rem] lg:hidden">
               <Photo
                 className="hidden sm:block"
                 src="/process.jpg"
@@ -182,7 +184,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mb-[2rem] hidden w-full overflow-hidden rounded-xl lg:block lg:h-[35rem]">
+          <div className="hidden w-full overflow-hidden rounded-xl lg:block lg:h-[35rem]">
             <Photo
               className="hidden sm:block"
               src="/process.jpg"
