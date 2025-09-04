@@ -22,7 +22,7 @@ export default function ServiceCard({
   link,
 }: ServiceCardProps) {
   return (
-    <Link className="group" href={link}>
+    <Link className="group text-center sm:text-left" href={link}>
       <div className="relative -z-10 mb-[1.5rem] h-[18.75rem] w-full overflow-hidden rounded-xl">
         <Photo
           className=""
