@@ -15,6 +15,7 @@ import ServiceCard from "@/components/ServiceCard";
 // data
 import benefits from "@/data/benefits.json";
 import services from "@/data/services.json";
+import processes from "@/data/processes.json";
 
 export default function Home() {
   return (
@@ -145,6 +146,48 @@ export default function Home() {
                 link={service.link}
               />
             ))}
+          </div>
+        </Wrapper>
+      </Section>
+
+      <Section>
+        <Wrapper className="lg:flex lg:items-center lg:gap-[5rem]">
+          <div className="w-full">
+            <Headline className="text-center lg:text-left">
+              <Heading>Our step-by-step process</Heading>
+            </Headline>
+
+            <div className="mb-[2rem] w-full overflow-hidden rounded-xl lg:hidden">
+              <Photo
+                className="hidden sm:block"
+                src="/process.jpg"
+                alt="Document processing."
+                width={600}
+                height={600}
+              />
+            </div>
+
+            <div className="grid grid-cols-1 gap-x-[4rem] gap-y-[2rem] text-center sm:grid-cols-2 sm:text-left">
+              {processes.map((process, index) => (
+                <div key={index}>
+                  <p className="mb-[1.2rem] font-semibold">0{index + 1}</p>
+                  <h3 className="mb-[0.5rem] text-xl font-semibold">
+                    {process.title}
+                  </h3>
+                  <p>{process.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="mb-[2rem] hidden w-full overflow-hidden rounded-xl lg:block lg:h-[35rem]">
+            <Photo
+              className="hidden sm:block"
+              src="/process.jpg"
+              alt="Document processing."
+              width={600}
+              height={600}
+            />
           </div>
         </Wrapper>
       </Section>
