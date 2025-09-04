@@ -16,6 +16,7 @@ import ServiceCard from "@/components/ServiceCard";
 import benefits from "@/data/benefits.json";
 import services from "@/data/services.json";
 import processes from "@/data/processes.json";
+import ProcessCard from "@/components/ProcessCard";
 
 export default function Home() {
   return (
@@ -169,13 +170,12 @@ export default function Home() {
 
             <div className="grid grid-cols-1 gap-x-[4rem] gap-y-[2rem] text-center sm:grid-cols-2 sm:text-left">
               {processes.map((process, index) => (
-                <div key={index}>
-                  <p className="mb-[1.2rem] font-semibold">0{index + 1}</p>
-                  <h3 className="mb-[0.5rem] text-xl font-semibold">
-                    {process.title}
-                  </h3>
-                  <p>{process.description}</p>
-                </div>
+                <ProcessCard
+                  key={index}
+                  title={process.title}
+                  description={process.description}
+                  step={index + 1}
+                />
               ))}
             </div>
           </div>
