@@ -9,7 +9,7 @@ export default function Title({ className, children }: TitleProps) {
   return (
     <div className="">
       <h1
-        className={`mb-[1rem] text-[2.3rem] leading-[1.2] font-medium capitalize md:text-[3.2rem] ${className ?? ""}`}
+        className={`mb-[1rem] text-[2.3rem] leading-[1.2] font-semibold capitalize md:text-[3.2rem] ${className ?? ""}`}
       >
         {children}
       </h1>
