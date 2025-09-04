@@ -191,6 +191,16 @@ export default function Home() {
           </div>
         </Wrapper>
       </Section>
+
+      <Section>
+        <Wrapper>
+          <Headline className="text-center">
+            <Heading className="mx-auto">
+              Amazing stories of our recent clients
+            </Heading>
+          </Headline>
+        </Wrapper>
+      </Section>
     </main>
   );
 }
