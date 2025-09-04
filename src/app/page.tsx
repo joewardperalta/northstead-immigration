@@ -58,8 +58,8 @@ export default function Home() {
 
       <Section>
         <Wrapper>
-          <Headline className="w-full lg:flex lg:justify-between lg:gap-[5rem]">
-            <Heading className="">
+          <Headline className="w-full text-center sm:text-left lg:flex lg:justify-between lg:gap-[5rem]">
+            <Heading className="mx-auto sm:mx-0">
               Trusted by hundreds of newcomers to Canada
             </Heading>
 
@@ -70,7 +70,10 @@ export default function Home() {
                 immigration system with confidence and clarity.
               </SubHeading>
 
-              <SecondaryCallToActionButton navigateTo="/services">
+              <SecondaryCallToActionButton
+                className="mx-auto sm:mx-0"
+                navigateTo="/services"
+              >
                 Learn more about us
               </SecondaryCallToActionButton>
             </div>

@@ -23,7 +23,7 @@ export default function TestimonialCard({
       />
 
       <blockquote>
-        <p className="mb-[1rem] text-[1.2rem]">{quote}</p>
+        <p className="mb-[1rem]">{quote}</p>
         <footer>
           <cite className="font-semibold not-italic">{author}</cite>
           <p className="text-[0.8rem]">{role}</p>
