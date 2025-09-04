@@ -14,7 +14,7 @@ export default function UpRightArrow({ className }: UpRightArrowProps) {
       fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_394_128)">
+      <g clipPath="url(#clip0_394_128)">
         <path
           d="M0 8.94141L7.44455 1.49695H2.58361V0H10V7.41639H8.50305V2.55547L1.05859 10L0 8.94141Z"
           fill="currentColor"

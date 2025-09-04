@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "photo": {
+      "src": "/consulting.jpg",
+      "alt": "Immigration consultant finalizing the agreements."
+    },
+    "title": "Immigration Consulting",
+    "description": "Personalized guidance to find the right program for you.",
+    "link": "/consultation"
+  },
+  {
+    "id": 2,
+    "photo": {
+      "src": "/caregiver.jpg",
+      "alt": "Caregiver assisting her client."
+    },
+    "title": "Caregiver Program",
+    "description": "Support for caregivers seeking work and settlement in Canada.",
+    "link": "/caregiver"
+  },
+  {
+    "id": 3,
+    "photo": {
+      "src": "/permit.jpg",
+      "alt": "Immigration consultant stamping the documents."
+    },
+    "title": "LMIA & Work Permits",
+    "description": "Helping employers hire and workers secure valid permits.",
+    "link": "/permit"
+  },
+  {
+    "id": 4,
+    "photo": {
+      "src": "/passport.jpg",
+      "alt": "Student successfully received her study visa."
+    },
+    "title": "Study & Visitor Visas",
+    "description": "Assistance with study permits and short-term entry visas.",
+    "link": "/visa"
+  },
+  {
+    "id": 5,
+    "photo": {
+      "src": "/citizenship.png",
+      "alt": "Canadian immigration document signed and approved."
+    },
+    "title": "PR & Citizenship Support",
+    "description": "Step-by-step help with PR and citizenship applications.",
+    "link": "/citizenship"
+  }
+]
