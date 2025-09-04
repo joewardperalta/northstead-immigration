@@ -11,12 +11,14 @@ import MainHeadline from "@/components/MainHeadline";
 import Section from "@/components/Section";
 import BenefitCard from "@/components/BenefitCard";
 import ServiceCard from "@/components/ServiceCard";
+import TestimonialCard from "@/components/TestimonialCard";
+import ProcessCard from "@/components/ProcessCard";
 
 // data
 import benefits from "@/data/benefits.json";
 import services from "@/data/services.json";
 import processes from "@/data/processes.json";
-import ProcessCard from "@/components/ProcessCard";
+import testimonies from "@/data/testimonies.json";
 
 export default function Home() {
   return (
@@ -199,6 +201,18 @@ export default function Home() {
               Amazing stories of our recent clients
             </Heading>
           </Headline>
+
+          <ul className="sm:grid-cols-2x grid grid-cols-1 gap-[1rem] sm:grid-cols-2 lg:grid-cols-3">
+            {testimonies.map((testimony, index) => (
+              <li key={index}>
+                <TestimonialCard
+                  quote={testimony.quote}
+                  author={testimony.author}
+                  role={testimony.role}
+                />
+              </li>
+            ))}
+          </ul>
         </Wrapper>
       </Section>
     </main>
