@@ -7,7 +7,8 @@
     },
     "title": "Immigration Consulting",
     "description": "Personalized guidance to find the right program for you.",
-    "link": "/consultation"
+    "link": "/consultation",
+    "featured": false
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     },
     "title": "Caregiver Program",
     "description": "Support for caregivers seeking work and settlement in Canada.",
-    "link": "/caregiver"
+    "link": "/caregiver",
+    "featured": true
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     },
     "title": "LMIA & Work Permits",
     "description": "Helping employers hire and workers secure valid permits.",
-    "link": "/permit"
+    "link": "/permit",
+    "featured": true
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     },
     "title": "Study & Visitor Visas",
     "description": "Assistance with study permits and short-term entry visas.",
-    "link": "/visa"
+    "link": "/visa",
+    "featured": true
   },
   {
     "id": 5,
@@ -47,6 +51,7 @@
     },
     "title": "PR & Citizenship Support",
     "description": "Step-by-step help with PR and citizenship applications.",
-    "link": "/citizenship"
+    "link": "/citizenship",
+    "featured": false
   }
 ]

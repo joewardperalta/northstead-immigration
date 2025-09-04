@@ -140,18 +140,27 @@ export default function Home() {
               We provide a wide range of immigration services tailored to meet
               your unique needs
             </SubHeading>
+            <SecondaryCallToActionButton
+              className="mx-auto"
+              navigateTo="/services"
+            >
+              View all services
+            </SecondaryCallToActionButton>
           </Headline>
 
           <div className="grid grid-cols-1 gap-x-[2rem] gap-y-[3rem] sm:grid-cols-2 lg:grid-cols-3">
-            {services.map((service) => (
-              <ServiceCard
-                key={service.id}
-                photo={service.photo}
-                title={service.title}
-                description={service.description}
-                link={service.link}
-              />
-            ))}
+            {services.map(
+              (service) =>
+                service.featured && (
+                  <ServiceCard
+                    key={service.id}
+                    photo={service.photo}
+                    title={service.title}
+                    description={service.description}
+                    link={service.link}
+                  />
+                ),
+            )}
           </div>
         </Wrapper>
       </Section>
