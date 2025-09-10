@@ -1,7 +1,7 @@
 import * as React from "react";
 import Link from "next/link";
 import Photo from "./Photo";
-import UpRightArrow from "../../public/icons/UpRightArrow";
+import UpRightArrow from "./icons/UpRightArrow";
 
 type PhotoProps = {
   src: string;

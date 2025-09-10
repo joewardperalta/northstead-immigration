@@ -1,6 +1,6 @@
 import * as React from "react";
 import Link from "next/link";
-import UpRightArrow from "../../../public/icons/UpRightArrow";
+import UpRightArrow from "../icons/UpRightArrow";
 
 type SecondaryCallToActionButtonProps = {
   className?: string;

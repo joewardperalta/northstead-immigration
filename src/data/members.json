@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Joy Villanueva",
+    "role": "Immigration Consultant",
+    "bio": "Licensed Immigration Consultant with extensive expertise in family reunification, caregiver programs, and permanent residency applications.",
+    "photo": {
+      "src": "/immigration-consultant-big-smile.jpg",
+      "alt": "Joy Villanueva wearing formal clothes"
+    },
+    "contacts": [
+      {
+        "icon": "phone",
+        "link": "+16478707911"
+      },
+      {
+        "icon": "/mail.png",
+        "link": "admin@nannyeldercare.com"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Laila Bonode",
+    "role": "Eldercare Services",
+    "bio": "Eldercare Services specialist supporting families with caregiver sponsorships, work permits, and settlement guidance in Canada.",
+    "photo": {
+      "src": "/pexels-weijia-ma-322731568-19989572.jpg",
+      "alt": "Laila Bonode wearing formal clothes."
+    },
+    "contacts": [
+      {
+        "icon": "phone",
+        "link": "+16473369939"
+      },
+      {
+        "icon": "mail",
+        "link": "care@nannyeldercare.com"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Julie Reyes",
+    "role": "Childcare & Student Services",
+    "bio": "Immigration professional focused on childcare programs, student visas, and youth-centered pathways to Canadian residency.",
+    "photo": {
+      "src": "/pexels-saulo-leite-1491182-17636939.jpg",
+      "alt": "Julie Reyes wearing formal clothes"
+    },
+    "contacts": [
+      {
+        "icon": "phone",
+        "link": "+16475745380"
+      },
+      {
+        "icon": "mail",
+        "link": "info@nannyeldercare.com"
+      }
+    ]
+  }
+]

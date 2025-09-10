@@ -47,7 +47,7 @@ export default function Home() {
           <div className="w-full overflow-hidden rounded-xl sm:h-[30rem] lg:h-[35rem]">
             <Photo
               className="object-top"
-              src="/immigration-consultant-potrait.jpg"
+              src="/immigration-consultant-big-smile.jpg"
               alt="Joy Villanueva consultant wearing a formal attire."
               width={600}
               height={600}
@@ -148,7 +148,7 @@ export default function Home() {
             </SecondaryCallToActionButton>
           </Headline>
 
-          <div className="grid grid-cols-1 gap-x-[2rem] gap-y-[3rem] sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-x-[2rem] gap-y-[2rem] sm:grid-cols-2 lg:grid-cols-3">
             {services.map(
               (service) =>
                 service.featured && (
@@ -250,7 +250,7 @@ export default function Home() {
 
           <div className="w-full overflow-hidden rounded-xl sm:h-[30rem] lg:h-[35rem]">
             <Photo
-              src="/consultation.jpg"
+              src="/immigration-consultant-smile.jpg"
               alt="Immigration consultant looking at the camera with a big smile."
               width={600}
               height={600}

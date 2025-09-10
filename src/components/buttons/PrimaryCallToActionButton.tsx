@@ -1,8 +1,6 @@
 import * as React from "react";
-import Image from "next/image";
 import Link from "next/link";
-import UpRightArrow from "../../../public/icons/UpRightArrow";
-import Calendar from "../../../public/icons/Calendar";
+import Calendar from "../icons/Calendar";
 
 type PrimaryCallToActionButtonProps = {
   className?: string;
@@ -17,11 +15,11 @@ export default function PrimaryCallToActionButton({
 }: PrimaryCallToActionButtonProps) {
   return (
     <Link
-      className={`w-fit text-secondary bg-primary px-6 py-3 rounded-lg flex items-center gap-3 font-medium hover:bg-primary-dark transition-all duration-300 ${className}`}
+      className={`text-secondary bg-primary hover:bg-primary-dark flex w-fit items-center gap-3 rounded-lg px-6 py-3 font-medium transition-all duration-300 ${className}`}
       href={navigateTo}
     >
       <span>{children}</span>
-      <div className="w-4 text-secondary">
+      <div className="text-secondary w-4">
         <Calendar />
       </div>
     </Link>

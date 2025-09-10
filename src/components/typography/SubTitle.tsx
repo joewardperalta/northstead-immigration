@@ -7,10 +7,10 @@ type SubTitleProps = {
 
 export default function SubTitle({ className, children }: SubTitleProps) {
   return (
-    <div className="mb-[2rem]">
-      <p className={`text-[1.18rem] md:text-[1.3rem] ${className ?? ""}`}>
-        {children}
-      </p>
-    </div>
+    <p
+      className={`mb-[2rem] text-[1.18rem] md:text-[1.3rem] ${className ?? ""}`}
+    >
+      {children}
+    </p>
   );
 }
