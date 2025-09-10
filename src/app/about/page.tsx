@@ -7,16 +7,13 @@ import Headline from "@/components/Headline";
 import Heading from "@/components/typography/Heading";
 import SubHeading from "@/components/typography/SubHeading";
 import Photo from "@/components/Photo";
-import Phone from "@/components/icons/Phone";
-import Mail from "@/components/icons/Mail";
-import Paragraph from "@/components/typography/Paragraph";
-import Link from "next/link";
 import TestimonialCard from "@/components/TestimonialCard";
 import PrimaryCallToActionButton from "@/components/buttons/PrimaryCallToActionButton";
 
 // Data
 import members from "@/data/members.json";
 import testimonies from "@/data/testimonies.json";
+import TeamMemberCard from "@/components/TeamMemberCard";
 
 export default function About() {
   return (
@@ -97,41 +94,13 @@ export default function About() {
           <ul className="grid grid-cols-1 gap-x-[2rem] gap-y-[2rem] sm:grid-cols-2 lg:grid-cols-3">
             {members.map((member) => (
               <li key={member.id}>
-                <article className="rounded-xl border border-black px-[2rem] py-[3rem]">
-                  <div className="mx-auto mb-[1rem] h-[6rem] w-[6rem] overflow-hidden rounded-full">
-                    <Photo
-                      className="object-top"
-                      src={member.photo.src}
-                      alt={member.photo.alt}
-                      width={300}
-                      height={300}
-                    />
-                  </div>
-
-                  <div className="space-y-[1rem]">
-                    <div className="text-center">
-                      <h3 className="text-xl font-semibold">{member.name}</h3>
-                      <p className="mb-[0.5rem] font-medium">{member.role}</p>
-                      <Paragraph>{member.bio}</Paragraph>
-                    </div>
-
-                    <ul className="flex justify-center gap-[1rem]">
-                      {member.contacts.map((contact, index) => (
-                        <li className="h-[1.1rem] w-[1.1rem]" key={index}>
-                          <Link
-                            href={
-                              contact.icon === "phone"
-                                ? `tel:${contact.link}`
-                                : `mailto:${contact.link}`
-                            }
-                          >
-                            {contact.icon === "phone" ? <Phone /> : <Mail />}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </article>
+                <TeamMemberCard
+                  photo={member.photo}
+                  name={member.name}
+                  role={member.role}
+                  bio={member.bio}
+                  contacts={member.contacts}
+                />
               </li>
             ))}
           </ul>
